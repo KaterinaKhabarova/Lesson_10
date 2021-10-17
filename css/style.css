@@ -51,10 +51,10 @@ div.impact {
 .impact__content-box {
    display: inline-block;
    width: 237px;
-   margin-right: 24px;
+   /* margin-right: 24px; */
 }
-.impact__content-box_margin-0 {
-   margin-right: 0px;
+.impact__content-boxes > *:not(:last-child) {
+   margin-right: 24px; 
 }
 .impact__content-box-icon {
    display: inline-block;
