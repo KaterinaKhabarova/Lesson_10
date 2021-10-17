@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
+div.main {
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   background-color: #f5f5f5;
+   max-width: 1440px;
+   padding-top: 100px;
+   margin: 0 auto;
+}
+div.impact {
+   background-color: #29c3be;
+   background-image: url(../img/spot.png);
+   background-repeat: no-repeat;
+   background-position: 630px 0px;
+   width: 1440px;
+   padding-top: 112px;
+   padding-bottom: 212px;
+   padding-left: 210px;
+}
+.header {
+   width: 411px;
+   display: inline-block;
+}
+.header__title {
+   font-weight: bold;
+   font-size: 12px;
+   line-height: 24px;
+   align-items: center;
+   letter-spacing: 2.5px;
+   text-transform: uppercase;
+   color: #ffffff;
+   background-image: url(../img/overline_mark.svg);
+   background-repeat: no-repeat;
+   padding-left: 33px;
+}
+.header__subtitle {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #ffffff;
+}
+.impact__image {
+   display: inline-block;
+   vertical-align: top;
+   margin-left: 111px;
+   margin-top: -200px;
+}
+.impact__content-boxes {
+   padding-top: 79px;
+}
+.impact__content-box {
+   display: inline-block;
+   width: 237px;
+   margin-right: 24px;
+}
+.impact__content-box_margin-0 {
+   margin-right: 0px;
+}
+.impact__content-box-icon {
+   display: inline-block;
+   vertical-align: top;
+}
+.impact__content-box-body {
+   display: inline-block;
+}
+
+.impact__content-box-body h5 {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #ffffff;
+}
+.impact__content-box-body p {
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #5d62b5;
+}
