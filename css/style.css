@@ -48,29 +48,29 @@ div.impact {
 .impact__content-boxes {
    padding-top: 79px;
 }
-.impact__content-box {
+.box-content__content-box {
    display: inline-block;
    width: 237px;
    /* margin-right: 24px; */
 }
 .impact__content-boxes > *:not(:last-child) {
-   margin-right: 24px; 
+   margin-right: 24px;
 }
-.impact__content-box-icon {
+.box-content__content-box-icon {
    display: inline-block;
    vertical-align: top;
 }
-.impact__content-box-body {
+.box-content__content-box-body {
    display: inline-block;
 }
 
-.impact__content-box-body h5 {
+.box-content__box-title {
    font-weight: 900;
    font-size: 36px;
    line-height: 42px;
    color: #ffffff;
 }
-.impact__content-box-body p {
+.box-content__box-paragraph {
    font-weight: bold;
    font-size: 16px;
    line-height: 24px;
